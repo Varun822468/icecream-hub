@@ -1,7 +1,7 @@
 .navbar h3{
     font-family: "Rowdies", sans-serif;
     font-size: 40px;
-    color: #d7b89c; /* light creamy brown */
+    color: #ffffff; /* light creamy brown */
 }
 .navbar p{
     font-family: 'Arial', sans-serif;
@@ -14,15 +14,20 @@
 
 
 }
-.navbar{
-    position: absolute;
-    top: 10px;
+.navbar {
+    position: fixed;   /* stays fixed on top */
+    top: 0;
+    left: 0;
+    width: 100%;       /* full width */
     display: flex;
     justify-content: center;
     gap: 240px;
     align-items: center;
     padding: 0px 80px;
+    z-index: 1000; /* makes sure it stays on top */
 }
+
+
 .nav-items{
     display: flex;
     gap: 60px;

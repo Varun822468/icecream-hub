@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Navbar from "./Navbar";
 
+
 gsap.registerPlugin(ScrollTrigger);
 
 const Hero = () => {
